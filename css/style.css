@@ -374,6 +374,59 @@ header {
     }
 }
 
+/* My Company */
+
+.company__link {
+    font-weight: var(--fw-bold);
+	text-align: center;
+	color: var(--clr-accent);
+}
+
+.company__link:hover,
+.social-list__link:hover {
+    opacity: .7;
+}
+
+.company__link:hover {
+    text-decoration: underline;
+}
+
+
+.my-company {
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    text-align: center;  
+	
+}
+
+.company {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.company__item {
+    background: var(--clr-dark);
+    overflow: hidden;
+}
+
+.company__img {
+    transition: 
+        transform 750ms cubic-bezier(.5, 0, .5, 1),
+        opacity 250ms linear;
+}
+
+.company__item:focus {
+    position: relative;
+    z-index: 2;
+}
+
+.company__img:hover,
+.company__item:focus .company__img {
+    transform: scale(1.2);
+    opacity: .5;
+}
+
+
 /* My Work */
 
 .my-work {
