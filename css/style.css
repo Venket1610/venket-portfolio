@@ -394,7 +394,7 @@ header {
 
 .my-company {
     background-color: var(--clr-light);
-    color: var(--clr-light);
+    color: var(--clr-dark);
     text-align: center;  
 	
 }
