@@ -393,7 +393,7 @@ header {
 
 
 .my-company {
-    background-color: var(--clr-dark);
+    background-color: var(--clr-light);
     color: var(--clr-light);
     text-align: center;  
 	
